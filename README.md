@@ -32,3 +32,23 @@ Ketika push pertama kali, maka perintah yang digunakan adalah:
  ```
     git push
  ```
+
+## Merging
+
+Untuk melakukan merge, gunakan perintah dibawah:
+
+```bash
+  git checkout development
+  git pull
+  git merge [branch-yang-anda-pilih]
+```
+
+Contoh, Anda sudah melakukan perubahan Navbar pada branch `navbar`. Maka langkah yang Anda lakukan adalah
+```bash
+   git checkout development
+   git pull
+   git merge [navbar]
+```
+
+Jika terdapat conflict, Anda dapat menghubungi saya di [Telegeram](https://t.me/fshdq) 
+

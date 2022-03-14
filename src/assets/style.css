@@ -1,4 +1,64 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
+/* COLOR */
+
+/* GRAY LIGHT */
+.bg-gray-light {
+  background-color: #F9F9FC;
+}
+.text-gray-light {
+  color: #F9F9FC;
+}
+
+/* GRAY DARK */
+.bg-gray-dark{
+  background-color: #1a1a1a;
+}
+.text-gray-dark{
+  color: #1a1a1a;
+}
+
+/* GRAY DARKER */
+.bg-gray-darker{
+  background-color: #0e0e0e;
+}
+.text-gray-darker{
+  color: #0e0e0e;
+}
+
+/* PRIMARY */
+.bg-primary{
+  background-color: #0500FF;
+}
+.text-primary{
+  color: #0500FF;
+}
+
+/* SECONDARY */
+.bg-secondary{
+  background-color: #ffbb00;
+}
+.text-secondary{
+  color: #ffbb00;
+}
+
+/* WHITE */
+.bg-white{
+  background-color: #FFFFFF;
+}
+.text-white{
+  color: #FFFFFF;
+}
+
+/* BLACK */
+.bg-black{
+  background-color: #000000;
+}
+.text-black{
+  color: #000000;
+}
+
+
+
 html,
 body {
   margin: 0;

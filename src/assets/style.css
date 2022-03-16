@@ -681,3 +681,64 @@ nav ul li a {
 }
 
 /* End */
+
+/* Footer */
+footer {
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+}
+
+footer .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+footer .footer-title {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+footer .card-social-media {
+  display: flex;
+  width: 144px;
+  justify-content: space-between;
+}
+
+footer .card-social-media-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #ebebeb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+}
+
+footer .card-social-media-icon img {
+  width: 15px;
+  height: 15px;
+  display: block;
+}
+
+footer .card-social-media-icon:hover {
+  background-color: #e4e4e4;
+  transition: 0.3s;
+}
+
+footer .card-social-media-icon:active {
+  background-color: #c5c5c5;
+}
+
+@media all and (min-width: 576px) {
+  footer .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+/* End */

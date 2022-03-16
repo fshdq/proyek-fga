@@ -52,3 +52,7 @@ Contoh, Anda sudah melakukan perubahan Navbar pada branch `navbar`. Maka langkah
 
 Jika terdapat conflict, Anda dapat menghubungi saya di [Telegeram](https://t.me/fshdq) 
 
+## Guide
+- ```text-decoration.css``` digunakan untuk melakukan perubahan pada text
+- ```layout.css``` digunakan untuk melakukan perubahan pada layout
+

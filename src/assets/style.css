@@ -498,6 +498,12 @@ nav ul li a {
   cursor: pointer;
 }
 
+#teams .card-team .card-body .card-social-media-icon img {
+  width: 15px;
+  height: 15px;
+  display: block;
+}
+
 #teams .card-team .card-body .card-social-media-icon:hover {
   background-color: #e4e4e4;
   transition: 0.3s;
